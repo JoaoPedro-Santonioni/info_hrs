@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: rgba(209, 211, 208, 0.767);
+    font: normal 15pt arial;
+}
+header{
+    color:rgba(255, 255, 255, 0.767);
+    text-align: center;
+}
+section{
+    background:rgba(255, 255, 255, 0.767);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(35, 36, 35, 0.767);
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    margin-top: 25px;
+}
+footer{
+    color:rgba(255, 255, 255, 0.767);
+    text-align: center;
+    font-style: italic;
+}
+div#corpo{
+    height: 350px;
+    text-align: center;
+    padding: 20px;
+}
+div#texto{
+    font: normal 30px arial;
+    text-align: center;
+    color: #1A1919;
+}
+img#foto{
+    height: 350px;
+    width: 350px;
+    text-align: center;
+}
+.cab_text{
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 44px;
+    margin-top: 10px;
+}
