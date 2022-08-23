@@ -7,12 +7,13 @@
     <title>Informativo de Horas</title>
     <link rel="stylesheet" href="src/estilo.css">
 </head>
-<body onload="carrega()">
+<body onload="carrega()" class="filter">
     <header>
         <h1 id="cab" class="cab_text"></h1>
     </header>
     <section>
-        <div id="texto" class="info_hrs">Agora são <span id="hrs"></span>:<span id="min"></span>⏱</div>
+        <div id="texto" class="info_hrs">
+            Agora são <label id="hrs"></label>:<label id="min"></label>⏱</div>
         <div id="corpo">
                 <img src="" id="foto">
         </div>

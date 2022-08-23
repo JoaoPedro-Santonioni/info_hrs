@@ -4,6 +4,8 @@ function carrega(){
     let foto = window.document.querySelector('img#foto');
     let hrs_time = window.document.getElementById('hrs');
     let min_time = window.document.getElementById('min');
+    let filter = window.document.querySelector('.filter');
+
 
     const relogio = setInterval(function time(){
         let datetoday = new Date();
@@ -18,22 +20,22 @@ function carrega(){
 
             if(hora >= 6 && hora <= 12 ){
                 cabeçalho.innerHTML = `Bom dia!`
-                document.body.style.background = '#3f75aa'
+                document.body.classList = `filter_manha`
                 foto.src = `images/manha.png`
     
             }else if(hora >= 13 && hora <=18){
                 cabeçalho.innerHTML = `Boa Tarde!`
-                document.body.style.background = '#FF9633'
+                document.body.classList = `filter_tarde`
                 foto.src = `images/tarde.png`
             
             }else if(hora >= 19 && hora <=23){
                 cabeçalho.innerHTML = `Boa Noite!`
-                document.body.style.background = '#071C42'
+                document.body.classList = `filter_noite`
                 foto.src = `images/noite.png`
             
             }else if(hora = 24 && hora <= 5){
                 cabeçalho.innerHTML = `Boa Madrugada!`
-                document.body.style.background = '#02030C'
+                document.body.classList = `filter_madruga`
                 foto.src = `images/madrugada.png`
             }  
 
